@@ -1,0 +1,56 @@
+#root {
+  background-color: black;
+}
+
+.profile-main {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 18px 0px;
+}
+
+.gallery img {
+  margin-bottom: 18px;
+}
+
+.item {
+  width: 30%;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border-bottom: "1px solid gray";
+}
+
+.profile-info::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #0f0;
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-top: 18px;
+}
+
+.numbers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.file-path-wrapper {
+  width: 180px !important;
+}

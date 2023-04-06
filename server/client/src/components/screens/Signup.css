@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-img {
+  background: url("https://images.squarespace-cdn.com/content/563982ebe4b0e18cfe9f8d6f/1468880431017-JYDHD6RS2524ELHWOF36/Social_Media_Background.jpg?format=1500w&content-type=image%2Fjpeg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .bg-img:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+} */
+
+.content {
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  z-index: 999;
+  width: 370px;
+  text-align: center;
+  padding: 30px 30px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.signup {
+  color: white;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+}
+
+.signup a {
+  color: #39ff14 !important;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+.content header {
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: "Grand Hotel", cursive;
+}
+
+.field {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.field span {
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+input:active {
+  background: transparent;
+}
+
+.pass {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.pass a {
+  color: white !important;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.pass:hover a {
+  text-decoration: underline;
+}
+
+/* BUTTON */
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.login a {
+  position: relative;
+  display: inline-block;
+  color: white !important;
+  padding: 10px 30px;
+  border: 2px solid #0f0;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  transition-delay: 0s;
+  font-family: "Poppins", sans-serif;
+}
+
+.login a:hover {
+  color: black !important;
+  box-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0, 0 0 80px #0f0,
+    0 0 160px #0f0;
+}
+
+.login a span {
+  position: relative;
+  z-index: 100;
+}
+
+.login a::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #0f0;
+  box-shadow: 5px -8px 0 #0f0, 5px 8px 0 #0f0;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.3s, 0s, 0s;
+}
+
+.login a:hover::before {
+  width: 60%;
+  height: 100%;
+  left: -2px;
+  box-shadow: 5px 0px 0 #0f0, 5px 0 0 #0f0;
+  transition-delay: 0s, 0.2s, 0.3s, 0.3s;
+}
+
+.login a::after {
+  content: "";
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #0f0;
+  box-shadow: -5px -8px 0 #0f0, -5px 8px 0 #0f0;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.3s, 0s, 0s;
+}
+
+.login a:hover::after {
+  width: 60%;
+  height: 100%;
+  right: -2px;
+  box-shadow: -5px 0px 0 #0f0, -5px 0 0 #0f0;
+  transition-delay: 0s, 0.2s, 0.3s, 0.3s;
+}

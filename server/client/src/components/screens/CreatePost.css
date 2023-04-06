@@ -1,0 +1,29 @@
+.bg {
+  background: url("https://images.squarespace-cdn.com/content/563982ebe4b0e18cfe9f8d6f/1468880431017-JYDHD6RS2524ELHWOF36/Social_Media_Background.jpg?format=1500w&content-type=image%2Fjpeg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  margin: auto;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  z-index: 999;
+  width: 370px;
+  text-align: center;
+  padding: 60px 32px;
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn i {
+  color: black !important;
+}

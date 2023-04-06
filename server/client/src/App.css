@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+html {
+  background-color: black;
+}
+a {
+  color: black;
+}
+
+.brand-logo {
+  font-family: "Grand Hotel", cursive;
+}
+
+#toast-container {
+  top: 60px !important;
+  right: 16px !important;
+  left: auto !important;
+  text-transform: uppercase !important;
+  font-family: "Poppins", sans-serif;
+}

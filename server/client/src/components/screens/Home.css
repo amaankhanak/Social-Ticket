@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
+
+.home {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  padding-top: 30px;
+  padding-bottom: 36px;
+  margin-top: -26px;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.home-card {
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+  -webkit-box-shadow: 8px 8px 4px -4px rgba(0, 255, 0, 0.81);
+  box-shadow: 8px 8px 4px -4px rgba(0, 255, 0, 0.81);
+}
+
+.material-icons:nth-child(2),
+.material-icons:nth-child(3) {
+  color: black !important;
+}
+
+.home-card h5 {
+  padding: 10px 18px;
+}
+
+.comment {
+  font-family: "Crimson Text", serif;
+  font-weight: 600 !important;
+}
+
+.card h5 a {
+  color: black !important;
+}
+
+.delete {
+  color: black !important;
+  float: right !important;
+}
+
+.comment-delete {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.home-card h5 {
+  padding: 0px 18px;
+}
